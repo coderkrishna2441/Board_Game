@@ -1,0 +1,61 @@
+<nav class="navbar">
+
+  <img src="assets/images/boardgame1_logo.png"
+       class="logo"/>
+
+  <div class="nav-links">
+    <a>Home</a>
+    <a>Events</a>
+    <a>Member</a>
+  </div>
+
+  <div class="dropdown">
+
+    <button class="dropbtn" (click)="toggleDropdown()">
+        Profile ▼
+    </button>
+
+    <div class="dropdown-content" [class.open]="dropdownOpen">
+        <a [routerLink]="['/userinfo', username]">Profile Display</a>
+        <a [routerLink]="['/edituserinfo', username]">Edit Profile</a>
+        <a routerLink="/home">Sign Out</a>
+    </div>
+
+  </div>
+
+</nav>
+    
+    <!-- MEMBER CONTENT -->
+    <div class="member-container">
+      <h1>
+        WELCOME {{ memberData?.user?.first_name }} {{ memberData?.user?.last_name }}
+      </h1>
+
+      <h2>Upcoming Events</h2>
+      <div class="events">
+        <img
+          *ngFor="let event of memberData?.events"
+          [src]="event.poster ? event.poster : 'assets/images/friends.png'"
+          [routerLink]="['/eventinfo', event.event_name]"
+          [alt]="event.event_name"
+        />
+      </div>
+
+      <h2>Types of Members</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Member Type</th>
+            <th>Perks</th>
+            <th>Years Required</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let member of memberData?.member_types">
+            <td>{{ member.member_type_name }}</td>
+            <td>{{ member.member_type_perks }}</td>
+            <td>{{ member.years_to_get_member_type }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

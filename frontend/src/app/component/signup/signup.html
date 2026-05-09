@@ -1,0 +1,154 @@
+<nav class="navbar">
+
+  <img src="assets/images/boardgame1_logo.png"
+       routerLink="/home"
+       class="logo"/>
+
+  <div class="nav-links">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/login">Login</a>
+    <a routerLink="/signup">Sign Up</a>
+  </div>
+
+  <img src="assets/images/user_logo.jpg"
+       class="user-icon"/>
+
+</nav>
+
+
+<form #f="ngForm"
+      (ngSubmit)="submit(firstname.value,lastname.value,email.value,phonenumber.value,dob.value,username.value,password.value)"
+      novalidate>
+
+  <div class="signup-card">
+    <h1>Sign Up</h1>
+
+    <!-- First Name -->
+    <div class="form-group">
+      <input
+        #firstname="ngModel"
+        name="firstname"
+        [(ngModel)]="model.firstname"
+        type="text"
+        placeholder="Enter your First Name"
+        required
+        minlength="3"
+      />
+      <div *ngIf="firstname.invalid && (firstname.touched || f.submitted)" class="error">
+        <small *ngIf="firstname.errors?.['required']">First name is required</small>
+        <small *ngIf="firstname.errors?.['minlength']">Minimum 3 characters required</small>
+      </div>
+    </div>
+
+    <!-- Last Name -->
+    <div class="form-group">
+      <input
+        #lastname="ngModel"
+        name="lastname"
+        [(ngModel)]="model.lastname"
+        type="text"
+        placeholder="Enter your Last Name"
+        required
+      />
+      <div *ngIf="lastname.invalid && (lastname.touched || f.submitted)" class="error">
+        <small>Last name is required</small>
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <input
+        #email="ngModel"
+        name="email"
+        [(ngModel)]="model.email"
+        type="email"
+        placeholder="Enter your Email"
+        required
+        email
+      />
+
+      <!-- Angular validation -->
+      <div *ngIf="email.invalid && (email.touched || f.submitted)" class="error">
+        <small *ngIf="email.errors?.['required']">Email is required</small>
+        <small *ngIf="email.errors?.['email']">Enter valid email</small>
+      </div>
+    </div>
+
+
+    <!-- Phone -->
+    <div class="form-group">
+      <input
+        #phonenumber="ngModel"
+        name="phonenumber"
+        [(ngModel)]="model.phonenumber"
+        type="text"
+        placeholder="Enter your Phone Number"
+        required
+        pattern="^[0-9]{10}$"
+      />
+
+      <div *ngIf="phonenumber.invalid && (phonenumber.touched || f.submitted)" class="error">
+        <small *ngIf="phonenumber.errors?.['required']">Phone number required</small>
+        <small *ngIf="phonenumber.errors?.['pattern']">Enter 10 digit number</small>
+      </div>
+    </div>
+
+
+    <!-- DOB -->
+    <div class="form-group">
+      <input
+        #dob="ngModel"
+        name="dob"
+        [(ngModel)]="model.dob"
+        type="date"
+        required
+      />
+      <div *ngIf="dob.invalid && (dob.touched || f.submitted)" class="error">
+        <small>Date of birth required</small>
+      </div>
+    </div>
+
+    <!-- Username -->
+    <div class="form-group">
+      <input
+        #username="ngModel"
+        name="username"
+        [(ngModel)]="model.username"
+        type="text"
+        placeholder="Enter a User Name"
+        required
+        minlength="4"
+      />
+
+      <div *ngIf="username.invalid && (username.touched || f.submitted)" class="error">
+        <small *ngIf="username.errors?.['required']">Username required</small>
+        <small *ngIf="username.errors?.['minlength']">Minimum 4 characters</small>
+      </div>
+    </div>
+
+
+    <!-- Password -->
+    <div class="form-group">
+      <input
+        #password="ngModel"
+        name="password"
+        [(ngModel)]="model.password"
+        type="password"
+        placeholder="Enter a Password"
+        required
+        minlength="6"
+      />
+      <div *ngIf="password.invalid && (password.touched || f.submitted)" class="error">
+        <small *ngIf="password.errors?.['required']">Password required</small>
+        <small *ngIf="password.errors?.['minlength']">Minimum 6 characters</small>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <button type="submit">Sign Up</button>
+      <p>Login if you already have account</p>
+      <button type="button" routerLink="/login">Login</button>
+    </div>
+  
+  </div>
+</form>

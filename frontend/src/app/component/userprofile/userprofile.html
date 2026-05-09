@@ -1,0 +1,129 @@
+<nav class="navbar">
+
+  <img src="assets/images/boardgame1_logo.png"
+       [routerLink]="['/member/', username]"
+       class="logo"/>
+
+  <div class="dropdown">
+    <button class="dropbtn" (click)="toggleDropdown()">
+      Profile ▼
+    </button>
+
+    <div class="dropdown-content" [class.open]="dropdownOpen">
+      <a [routerLink]="['/userinfo', username]">Profile Display</a>
+      <a [routerLink]="['/edituserinfo', username]">Edit Profile</a>
+      <a routerLink="/home">Sign Out</a>
+    </div>
+  </div> 
+
+</nav>
+
+<!-- ✅ WAIT UNTIL DATA LOADS -->
+<div class="profile-container" *ngIf="isLoaded">
+
+  <h2 class="title">{{model.username}} Profile</h2>
+
+  <form #f="ngForm"
+        class="profile-form"
+        (ngSubmit)="submit(f)"
+        novalidate>
+
+    <!-- FIRST NAME -->
+    <div class="form-row">
+      <label>First Name</label>
+      <input type="text"
+             name="firstname"
+             [(ngModel)]="model.first_name"
+             #firstname="ngModel"
+             required
+             minlength="3"
+             pattern="^[A-Za-z]+$">
+
+      <div class="error" *ngIf="firstname.invalid && firstname.touched">
+        <span *ngIf="firstname.errors?.['required']">First name is required</span>
+        <span *ngIf="firstname.errors?.['minlength']">Minimum 3 characters required</span>
+        <span *ngIf="firstname.errors?.['pattern']">Only letters allowed</span>
+      </div>
+    </div>
+
+    <!-- LAST NAME -->
+    <div class="form-row">
+      <label>Last Name</label>
+      <input type="text"
+             name="lastname"
+             [(ngModel)]="model.last_name"
+             #lastname="ngModel"
+             required
+             pattern="^[A-Za-z]+$">
+
+      <div class="error" *ngIf="lastname.invalid && lastname.touched">
+        <span *ngIf="lastname.errors?.['required']">Last name is required</span>
+        <span *ngIf="lastname.errors?.['pattern']">Only letters allowed</span>
+      </div>
+    </div>
+
+    <!-- ADDRESS -->
+    <div class="form-row">
+      <label>Address</label>
+      <input type="text"
+             name="address"
+             [(ngModel)]="model.address"
+             required
+             minlength="5">
+    </div>
+
+    <!-- PHONE -->
+    <div class="form-row">
+      <label>Phone Number</label>
+      <input type="text"
+             name="phonenumber"
+             [(ngModel)]="model.phone_number"
+             required
+             pattern="^[0-9]{10}$">
+    </div>
+
+    <!-- MEMBER TYPE -->
+    <div class="form-row">
+      <label>Type of Member</label>
+      <select name="membertype"
+              [(ngModel)]="model.member_type_name"
+              required>
+        <option value="">Select Type</option>
+        <option>Student</option>
+        <option>Regular Member</option>
+        <option>Premium Member</option>
+      </select>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="form-row">
+      <label>Email ID</label>
+      <input type="email"
+             name="email"
+             [(ngModel)]="model.email"
+             required>
+    </div>
+
+    <!-- PROFILE PICTURE -->
+    <div class="form-row">
+      <label>Profile Picture</label>
+      <input type="file">
+    </div>
+
+    <!-- BIO -->
+    <div class="form-row">
+      <label>Bio</label>
+      <textarea rows="4"
+                name="bio"
+                [(ngModel)]="model.bio"
+                maxlength="200"></textarea>
+    </div>
+
+    <!-- SUBMIT -->
+    <button class="save-btn" type="submit">
+      Save Profile
+    </button>
+
+  </form>
+
+</div>

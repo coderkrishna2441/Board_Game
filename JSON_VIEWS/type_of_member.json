@@ -1,0 +1,123 @@
+{
+"type_of_member": [
+	{
+		"member_type_id" : 1,
+		"member_type_name" : "Basic Member",
+		"member_type_perks" : "Access to community events",
+		"years_to_get_member_type" : 0
+	},
+	{
+		"member_type_id" : 2,
+		"member_type_name" : "Silver Member",
+		"member_type_perks" : "Event discounts",
+		"years_to_get_member_type" : 1
+	},
+	{
+		"member_type_id" : 3,
+		"member_type_name" : "Gold Member",
+		"member_type_perks" : "Priority event registration",
+		"years_to_get_member_type" : 2
+	},
+	{
+		"member_type_id" : 4,
+		"member_type_name" : "Platinum Member",
+		"member_type_perks" : "VIP seating",
+		"years_to_get_member_type" : 3
+	},
+	{
+		"member_type_id" : 5,
+		"member_type_name" : "Diamond Member",
+		"member_type_perks" : "Free premium events",
+		"years_to_get_member_type" : 5
+	},
+	{
+		"member_type_id" : 6,
+		"member_type_name" : "Student Member",
+		"member_type_perks" : "Student event access",
+		"years_to_get_member_type" : 0
+	},
+	{
+		"member_type_id" : 7,
+		"member_type_name" : "Corporate Member",
+		"member_type_perks" : "Corporate networking",
+		"years_to_get_member_type" : 2
+	},
+	{
+		"member_type_id" : 8,
+		"member_type_name" : "Family Member",
+		"member_type_perks" : "Family event packages",
+		"years_to_get_member_type" : 1
+	},
+	{
+		"member_type_id" : 9,
+		"member_type_name" : "Lifetime Member",
+		"member_type_perks" : "Lifetime free access",
+		"years_to_get_member_type" : 10
+	},
+	{
+		"member_type_id" : 10,
+		"member_type_name" : "Premium Member",
+		"member_type_perks" : "Exclusive workshops",
+		"years_to_get_member_type" : 3
+	},
+	{
+		"member_type_id" : 11,
+		"member_type_name" : "Volunteer Member",
+		"member_type_perks" : "Volunteer recognition",
+		"years_to_get_member_type" : 1
+	},
+	{
+		"member_type_id" : 12,
+		"member_type_name" : "Sponsor Member",
+		"member_type_perks" : "Brand visibility",
+		"years_to_get_member_type" : 2
+	},
+	{
+		"member_type_id" : 13,
+		"member_type_name" : "Alumni Member",
+		"member_type_perks" : "Alumni meetups",
+		"years_to_get_member_type" : 1
+	},
+	{
+		"member_type_id" : 14,
+		"member_type_name" : "Executive Member",
+		"member_type_perks" : "Executive networking",
+		"years_to_get_member_type" : 4
+	},
+	{
+		"member_type_id" : 15,
+		"member_type_name" : "Community Member",
+		"member_type_perks" : "Local community access",
+		"years_to_get_member_type" : 0
+	},
+	{
+		"member_type_id" : 16,
+		"member_type_name" : "Elite Member",
+		"member_type_perks" : "Elite private events",
+		"years_to_get_member_type" : 5
+	},
+	{
+		"member_type_id" : 17,
+		"member_type_name" : "Honorary Member",
+		"member_type_perks" : "Special honorary access",
+		"years_to_get_member_type" : 0
+	},
+	{
+		"member_type_id" : 18,
+		"member_type_name" : "Partner Member",
+		"member_type_perks" : "Partner organization access",
+		"years_to_get_member_type" : 3
+	},
+	{
+		"member_type_id" : 19,
+		"member_type_name" : "Founder Member",
+		"member_type_perks" : "Founder privileges",
+		"years_to_get_member_type" : 7
+	},
+	{
+		"member_type_id" : 20,
+		"member_type_name" : "Guest Member",
+		"member_type_perks" : "Limited event access",
+		"years_to_get_member_type" : 0
+	}
+]}

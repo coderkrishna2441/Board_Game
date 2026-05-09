@@ -1,0 +1,291 @@
+{
+  "user_edit_view" : [ {
+    "first_name" : "Aarav",
+    "last_name" : "Patel",
+    "address" : "Ahmedabad",
+    "phone_number" : "9000000001",
+    "email" : "aarav1@gmail.com",
+    "bio" : "Tech enthusiast",
+    "profile_picture" : null,
+    "member_type_name" : "Basic Member"
+  }, {
+    "first_name" : "Riya",
+    "last_name" : "Shah",
+    "address" : "Surat",
+    "phone_number" : "9000000002",
+    "email" : "riya2@gmail.com",
+    "bio" : "Board game lover",
+    "profile_picture" : null,
+    "member_type_name" : "Silver Member"
+  }, {
+    "first_name" : "Dev",
+    "last_name" : "Mehta",
+    "address" : "Rajkot",
+    "phone_number" : "9000000003",
+    "email" : "dev3@gmail.com",
+    "bio" : "Developer",
+    "profile_picture" : null,
+    "member_type_name" : "Gold Member"
+  }, {
+    "first_name" : "Isha",
+    "last_name" : "Patel",
+    "address" : "Vadodara",
+    "phone_number" : "9000000004",
+    "email" : "isha4@gmail.com",
+    "bio" : "Event organizer",
+    "profile_picture" : null,
+    "member_type_name" : "Platinum Member"
+  }, {
+    "first_name" : "Karan",
+    "last_name" : "Joshi",
+    "address" : "Ahmedabad",
+    "phone_number" : "9000000005",
+    "email" : "karan5@gmail.com",
+    "bio" : "Competitive gamer",
+    "profile_picture" : null,
+    "member_type_name" : "Diamond Member"
+  }, {
+    "first_name" : "Neha",
+    "last_name" : "Trivedi",
+    "address" : "Surat",
+    "phone_number" : "9000000006",
+    "email" : "neha6@gmail.com",
+    "bio" : "Chess player",
+    "profile_picture" : null,
+    "member_type_name" : "Student Member"
+  }, {
+    "first_name" : "Rohan",
+    "last_name" : "Desai",
+    "address" : "Rajkot",
+    "phone_number" : "9000000007",
+    "email" : "rohan7@gmail.com",
+    "bio" : "Tech blogger",
+    "profile_picture" : null,
+    "member_type_name" : "Corporate Member"
+  }, {
+    "first_name" : "Sneha",
+    "last_name" : "Kapoor",
+    "address" : "Mumbai",
+    "phone_number" : "9000000008",
+    "email" : "sneha8@gmail.com",
+    "bio" : "Strategy games",
+    "profile_picture" : null,
+    "member_type_name" : "Family Member"
+  }, {
+    "first_name" : "Vikram",
+    "last_name" : "Sharma",
+    "address" : "Delhi",
+    "phone_number" : "9000000009",
+    "email" : "vikram9@gmail.com",
+    "bio" : "Board game collector",
+    "profile_picture" : null,
+    "member_type_name" : "Lifetime Member"
+  }, {
+    "first_name" : "Ananya",
+    "last_name" : "Iyer",
+    "address" : "Chennai",
+    "phone_number" : "9000000010",
+    "email" : "ananya10@gmail.com",
+    "bio" : "Designer",
+    "profile_picture" : null,
+    "member_type_name" : "Premium Member"
+  }, {
+    "first_name" : "Rahul",
+    "last_name" : "Verma",
+    "address" : "Pune",
+    "phone_number" : "9000000011",
+    "email" : "rahul11@gmail.com",
+    "bio" : "Startup founder",
+    "profile_picture" : null,
+    "member_type_name" : "Volunteer Member"
+  }, {
+    "first_name" : "kishan",
+    "last_name" : "sharma",
+    "address" : "America",
+    "phone_number" : "1234567876",
+    "email" : "kishans42342@gmail.com",
+    "bio" : "Puzzle fan",
+    "profile_picture" : null,
+    "member_type_name" : "Regular Member"
+  }, {
+    "first_name" : "Manav",
+    "last_name" : "Singh",
+    "address" : "Jaipur",
+    "phone_number" : "9000000013",
+    "email" : "manav13@gmail.com",
+    "bio" : "Traveler",
+    "profile_picture" : null,
+    "member_type_name" : "Alumni Member"
+  }, {
+    "first_name" : "Aditi",
+    "last_name" : "Rao",
+    "address" : "Hyderabad",
+    "phone_number" : "9000000014",
+    "email" : "aditi14@gmail.com",
+    "bio" : "UX designer",
+    "profile_picture" : null,
+    "member_type_name" : "Executive Member"
+  }, {
+    "first_name" : "Arjun",
+    "last_name" : "Kapadia",
+    "address" : "Ahmedabad",
+    "phone_number" : "9000000015",
+    "email" : "arjun15@gmail.com",
+    "bio" : "AI enthusiast",
+    "profile_picture" : null,
+    "member_type_name" : "Community Member"
+  }, {
+    "first_name" : "Tanvi",
+    "last_name" : "Kulkarni",
+    "address" : "Nagpur",
+    "phone_number" : "9000000016",
+    "email" : "tanvi16@gmail.com",
+    "bio" : "Board game strategist",
+    "profile_picture" : null,
+    "member_type_name" : "Elite Member"
+  }, {
+    "first_name" : "Siddharth",
+    "last_name" : "Bansal",
+    "address" : "Delhi",
+    "phone_number" : "9000000017",
+    "email" : "sid17@gmail.com",
+    "bio" : "Entrepreneur",
+    "profile_picture" : null,
+    "member_type_name" : "Honorary Member"
+  }, {
+    "first_name" : "Meera",
+    "last_name" : "Chopra",
+    "address" : "Chandigarh",
+    "phone_number" : "9000000018",
+    "email" : "meera18@gmail.com",
+    "bio" : "Artist",
+    "profile_picture" : null,
+    "member_type_name" : "Partner Member"
+  }, {
+    "first_name" : "Yash",
+    "last_name" : "Agarwal",
+    "address" : "Kolkata",
+    "phone_number" : "9000000019",
+    "email" : "yash19@gmail.com",
+    "bio" : "Gaming fan",
+    "profile_picture" : null,
+    "member_type_name" : "Founder Member"
+  }, {
+    "first_name" : "Priya",
+    "last_name" : "Malhotra",
+    "address" : "Delhi",
+    "phone_number" : "9000000020",
+    "email" : "priya20@gmail.com",
+    "bio" : "Event planner",
+    "profile_picture" : null,
+    "member_type_name" : "Guest Member"
+  }, {
+    "first_name" : "kishan",
+    "last_name" : "shah",
+    "address" : "",
+    "phone_number" : "1234567876",
+    "email" : "kishans@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "kishan34",
+    "last_name" : "shah",
+    "address" : "America",
+    "phone_number" : "1234567432",
+    "email" : "kishans42342@gmail.com",
+    "bio" : "hello",
+    "profile_picture" : null,
+    "member_type_name" : "Regular Member"
+  }, {
+    "first_name" : "hardik",
+    "last_name" : "shah",
+    "address" : "Am",
+    "phone_number" : "5673849382",
+    "email" : "hardik42342@gmail.com",
+    "bio" : "I am Hardik Shah",
+    "profile_picture" : null,
+    "member_type_name" : "Student"
+  }, {
+    "first_name" : "goat",
+    "last_name" : "hosuse",
+    "address" : "New jersey",
+    "phone_number" : "1234456677",
+    "email" : "uoshduh@gmail.com",
+    "bio" : "hello my name is krishna and i am internship programmer",
+    "profile_picture" : null,
+    "member_type_name" : "Regular Member"
+  }, {
+    "first_name" : "house",
+    "last_name" : "dr",
+    "address" : "",
+    "phone_number" : "1234456889",
+    "email" : "uoshduheqwe@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "doctor",
+    "last_name" : "house",
+    "address" : "",
+    "phone_number" : "1234098765",
+    "email" : "uoshduheqwe23@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "nisha",
+    "last_name" : "sharma",
+    "address" : "Chattisgargh",
+    "phone_number" : "1234098756",
+    "email" : "nishas234@gmail.com",
+    "bio" : "Hello i am krishna's mom",
+    "profile_picture" : null,
+    "member_type_name" : "Premium Member"
+  }, {
+    "first_name" : "gardern",
+    "last_name" : "hose",
+    "address" : "",
+    "phone_number" : "1234566098",
+    "email" : "GardernHouse@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "kishan",
+    "last_name" : "sharma",
+    "address" : "",
+    "phone_number" : "1234567890",
+    "email" : "ks.creative@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "john",
+    "last_name" : "shah",
+    "address" : "",
+    "phone_number" : "1234577890",
+    "email" : "ks.creative4656754443@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "krishna",
+    "last_name" : "sharma",
+    "address" : "",
+    "phone_number" : "1234567990",
+    "email" : "ks.creative45356@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  }, {
+    "first_name" : "krishna",
+    "last_name" : "sharma",
+    "address" : "",
+    "phone_number" : "1234568890",
+    "email" : "ks.creative87980798@gmail.com",
+    "bio" : "",
+    "profile_picture" : null,
+    "member_type_name" : ""
+  } ]
+}

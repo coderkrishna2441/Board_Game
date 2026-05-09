@@ -1,0 +1,84 @@
+{
+"event_full_details": [
+{
+"event_name":"Board Game Night",
+"host_names":["Dev Mehta", "Krishna Sharma", "Riya Shah"],
+"event_date":"2026-04-01",
+"event_time":"18:00:00",
+"event_venue":"Ahmedabad Club",
+"event_description":"Fun board game meetup",
+"poster":null,
+"event_schedule":[
+{"activity":"Registration","time":"09:00:00"},
+{"activity":"Opening Session","time":"09:30:00"},
+{"activity":"Main Activity", "time":"10:00:00"},
+{"activity":"Networking Break", "time":"11:00:00"},
+{"activity":"Closing Ceremony","time":"12:00:00"}
+]
+},
+{
+"event_name":"Chess Championship",
+"host_names":["Isha Patel", "Karan Joshi", "Neha Trivedi"],
+"event_date":"2026-04-03",
+"event_time":"10:00:00",
+"event_venue":"Surat Hall",
+"event_description":"Regional chess tournament",
+"poster":null,
+"event_schedule":[
+{"activity":"Registration","time":"09:00:00"},
+{"activity":"Opening Session","time":"09:30:00"},
+{"activity":"Round 1", "time":"10:00:00"},
+{"activity":"Round 2", "time":"11:00:00"},
+{"activity":"Prize Distribution","time":"12:00:00"}
+]
+},
+{
+"event_name":"Tech Trivia",
+"host_names":["Rohan Desai", "Sneha Kapoor", "Vikram Sharma"],
+"event_date":"2026-04-05",
+"event_time":"17:00:00",
+"event_venue":"Rajkot Arena",
+"event_description":"Technology quiz",
+"poster":null,
+"event_schedule":[
+{"activity":"Registration","time":"16:30:00"},
+{"activity":"Introduction","time":"16:50:00"},
+{"activity":"Quiz Round 1", "time":"17:00:00"},
+{"activity":"Quiz Round 2", "time":"17:45:00"},
+{"activity":"Winner Announcement","time":"18:30:00"}
+]
+},
+{
+"event_name":"Startup Meetup",
+"host_names":["Ananya Iyer", "Pooja Nair", "Rahul Verma"],
+"event_date":"2026-04-07",
+"event_time":"16:00:00",
+"event_venue":"Ahmedabad Hub",
+"event_description":"Startup networking",
+"poster":null,
+"event_schedule":[
+{"activity":"Guest Arrival","time":"15:30:00"},
+{"activity":"Welcome Speech","time":"16:00:00"},
+{"activity":"Startup Talks", "time":"16:00:00"},
+{"activity":"Networking Session", "time":"17:30:00"},
+{"activity":"Closing","time":"18:00:00"}
+]
+},
+{
+"event_name":"Strategy Games",
+"host_names":["Aditi Rao", "Arjun Kapadia", "Manav Singh"],
+"event_date":"2026-04-10",
+"event_time":"19:00:00",
+"event_venue":"Vadodara Center",
+"event_description":"Strategy board games",
+"poster":null,
+"event_schedule":[
+{"activity":"Registration","time":"18:00:00"},
+{"activity":"Game Introduction","time":"18:15:00"},
+{"activity":"Strategy Round 1", "time":"18:30:00"},
+{"activity":"Strategy Round 2", "time":"19:15:00"},
+{"activity":"Winner Announcement","time":"20:00:00"}
+]
+}
+]
+}

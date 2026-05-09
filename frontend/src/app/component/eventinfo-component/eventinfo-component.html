@@ -1,0 +1,80 @@
+<HTML>
+    <body>
+
+        <nav class="navbar">
+
+            <img src="assets/images/boardgame1_logo.png"
+                [routerLink]="['/member/',username]"
+                class="logo"/>
+
+            <div class="dropdown">
+
+                <button class="dropbtn" (click)="toggleDropdown()">
+                    Profile ▼
+                </button>
+
+                <div class="dropdown-content" [class.open]="dropdownOpen">
+                    <a [routerLink]="['/userinfo', username]">Profile Display</a>
+                    <a [routerLink]="['/edituserinfo', username]">Edit Profile</a>
+                    <a routerLink="/home">Sign Out</a>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Poster -->
+        <img class="event-banner"
+            [src]="eventData?.poster ? eventData?.poster : 'assets/images/friends.png'"/>
+
+        <!-- Title -->
+        <h1>{{ eventData?.event_name }}</h1>
+
+        <div class="date_time">
+            <!-- Date & Time -->
+            <p>📅 {{ eventData?.event_date }}</p>
+            <p>⏰ {{ eventData?.event_time }}</p>
+        </div>
+
+        <!-- About -->
+        <h3>About the Event</h3>
+        <p>{{ eventData?.event_description }}</p>
+
+        <!-- Register -->
+        <h3>How to Register</h3>
+        <ol>
+            <li>Create an account on the platform</li>
+            <li>Login to your profile</li>
+            <li>Click on the register button below</li>
+            <li>Confirm your participation</li>
+        </ol>
+
+        <button class="register-btn">Register Now</button>
+
+        <!-- Hosts -->
+        <h3>Event Hosts</h3>
+        <div class="hosts">
+            <div *ngFor="let host of eventData?.host_names">
+            <img src="assets/images/user_logo.jpg">
+            <p>{{ host }}</p>
+            </div>
+        </div>
+
+        <div class="table">
+            <!-- Timetable -->
+            <h3>Event Timetable</h3>
+
+            <table>
+                <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                </tr>
+
+                <tr *ngFor="let item of eventData?.event_schedule">
+                <td>{{ item?.time }}</td>
+                <td>{{ item?.activity }}</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</HTML>

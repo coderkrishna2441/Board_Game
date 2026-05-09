@@ -1,0 +1,21 @@
+.error-container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #0f172a;
+      color: white;
+    }
+    h1 {
+      font-size: 80px;
+      color: #fbbf24;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background: #fbbf24;
+      cursor: pointer;
+      border-radius: 6px;
+    }

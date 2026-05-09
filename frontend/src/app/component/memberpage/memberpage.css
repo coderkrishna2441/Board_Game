@@ -1,0 +1,167 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background:linear-gradient(145deg,#ffd700,#f7b500);
+  padding: 12px 40px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Logo */
+.logo{
+  height: 45px;
+  cursor: pointer;
+}
+
+/* Center links */
+.nav-links{
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+
+  padding: 6px 12px;
+  border-radius: 5px;
+
+  transition: background 0.3s;
+}
+
+.nav-links a:hover{
+  background:white;
+}
+
+/* User icon */
+.user-icon{
+  height: 38px;
+  width: 38px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+
+  cursor: pointer;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+/* Button */
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.dropbtn:hover {
+  background-color:white;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;  
+  position: absolute;
+  right: 0;
+  background:linear-gradient(145deg,#ffd700,#f7b500);
+  min-width: 180px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+/* Hover effect for links */
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Show dropdown when active */
+.dropdown-content.open {
+  display: block;
+}
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+
+    /* MAIN CONTAINER */
+    .member-container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .member-container h1 {
+      margin-bottom: 40px;
+    }
+
+    /* EVENTS */
+.events {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 20px; /* space between items */
+  margin-bottom: 50px;
+}
+
+.events img {
+  width: 100%; /* fills the grid column */
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.events img:hover {
+  transform: scale(1.05);
+}
+
+    /* TABLE */
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 60%;
+      background: white;
+    }
+
+    th {
+      background:#ffd700;
+      color: black;
+      padding: 12px;
+    }
+
+    td {
+      padding: 12px;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background: #f2f2f2;
+    }

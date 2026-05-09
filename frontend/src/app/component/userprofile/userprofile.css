@@ -1,0 +1,218 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(145deg, #ffd700, #f7b500);
+  padding: 12px 40px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Logo */
+.logo {
+  height: 45px;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.dropbtn:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(145deg, #ffd700, #f7b500);
+  min-width: 180px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown-content.open {
+  display: block;
+}
+
+/* ================= PROFILE CONTAINER ================= */
+.profile-container {
+  width: 55%;
+  margin: 50px auto;
+  padding: 40px;
+
+  background: linear-gradient(145deg, #fff6cc, #ffd84d);
+  border-radius: 18px;
+
+  box-shadow:
+    0px 15px 35px rgba(0,0,0,0.35),
+    inset 0px 3px 6px rgba(255,255,255,0.7);
+
+  transition: transform 0.3s ease;
+}
+
+.profile-container:hover {
+  transform: translateY(-4px);
+}
+
+/* ================= TITLE ================= */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #5a4200;
+}
+
+/* ================= FORM ================= */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #5a4200;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  padding: 11px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+
+  background: #fffbe6;
+
+  box-shadow:
+    inset 2px 2px 5px rgba(0,0,0,0.2),
+    inset -2px -2px 5px rgba(255,255,255,0.7);
+
+  transition: all 0.25s ease;
+}
+
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  background: white;
+  box-shadow:
+    0 0 8px rgba(255, 183, 0, 0.7),
+    inset 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* ================= ERROR TEXT ================= */
+.error {
+  color: #d32f2f;
+  font-size: 13px;
+  margin-top: 4px;
+  padding-left: 4px;
+}
+
+/* Highlight invalid input */
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid #d32f2f;
+  background: #ffe6e6;
+}
+
+/* ================= BUTTON ================= */
+.save-btn {
+  margin-top: 20px;
+  padding: 12px;
+
+  background: linear-gradient(145deg, #ffd700, #ffb700);
+  border: none;
+  border-radius: 12px;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  cursor: pointer;
+
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.4);
+
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  background: linear-gradient(145deg, #ffcc00, #ff9900);
+  transform: translateY(-2px);
+}
+
+/* Disabled button */
+.save-btn:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* ================= TEXTAREA ================= */
+textarea {
+  resize: none;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+  .profile-container {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+}

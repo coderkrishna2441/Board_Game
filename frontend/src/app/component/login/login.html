@@ -1,0 +1,40 @@
+<nav class="navbar">
+
+  <img src="assets/images/boardgame1_logo.png"
+       routerLink="/home"
+       class="logo"/>
+
+  <div class="nav-links">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/login">Login</a>
+    <a routerLink="/signup">Sign Up</a>
+  </div>
+
+  <img src="assets/images/user_logo.jpg"
+       class="user-icon"/>
+
+</nav>
+       
+       <form>
+  <div class="signup-card">
+    <h1>Login</h1>
+
+    <div class="form-group">
+      <input #username type="text" placeholder="Enter Your Username"/>
+      <input #password type="password" placeholder="Enter Your Password"/>
+    </div>
+
+    <div>
+      <button type="button" (click)="Login(username.value,password.value)">
+        Login
+      </button>
+
+      <p>Signup if you don't have account</p>
+
+      <button type="button" routerLink="/signup">
+        Signup
+      </button>
+    </div>
+
+  </div>
+</form>
