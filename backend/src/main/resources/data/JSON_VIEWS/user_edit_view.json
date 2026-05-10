@@ -287,5 +287,14 @@
     "bio" : "",
     "profile_picture" : null,
     "member_type_name" : ""
+  }, {
+    "first_name" : "krishna",
+    "last_name" : "sharma",
+    "address" : "America",
+    "phone_number" : "8374897328",
+    "email" : "ks.creativerhuhg@gmail.com",
+    "bio" : "hello my name is krishna",
+    "profile_picture" : null,
+    "member_type_name" : "Student"
   } ]
 }

@@ -255,5 +255,13 @@
     "dob" : "2026-04-17",
     "username" : "krishna24563637",
     "password" : "pass123"
+  }, {
+    "first_name" : "krishna",
+    "last_name" : "sharma",
+    "email" : "ks.creativerhuhg@gmail.com",
+    "phone_number" : "8374897328",
+    "dob" : "2026-05-07",
+    "username" : "krishna24878970",
+    "password" : "pass123"
   } ]
 }
